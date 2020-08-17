@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  text-align: center;
+  align-items: center;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.62rem;
+  /* we can scale this using (1,2,3 so on)em or % (16px is 100%) 16px=1em */
+  /* Using rem(root em) it ignores the font sizes set in parents and does not get affected, When sizing text It's better 
+  to use rem*/
+  line-height: 2;
+  color: #ba7967;
+}
+
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: #ba7967;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #e97171;
+}
+
+a {
+  color: #e97171;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+a:hover{
+  color: #eaf6f6;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.profile1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.py {
+  width: 25%;
+  height: 150px;
+  float: left;
+  margin-right: 30px;
+}
+
+.web {
+  width: 25%;
+  height: 200px;
+  float: right;
+  margin-left: 30px;
+}
+
+.top {
+  background-color: #ffdecf;
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: 40px;
+}
+
+.bottom-container {
+  background-color: #e97171;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 100px;
+}
+
+.contact-me {
+  margin-bottom: 100px;
+}
+
+#para {
+  padding-bottom: 30px;
+}
+.Hello{
+  width: 30%;
+  margin: 0 auto 0 auto;
+  line-height: 2;
+}
+.BUTTON_MCN {
+  background: #E97171;
+  background-image: -webkit-linear-gradient(top, #E97171, #E97171);
+  background-image: -moz-linear-gradient(top, #E97171, #E97171);
+  background-image: -ms-linear-gradient(top, #E97171, #E97171);
+  background-image: -o-linear-gradient(top, #E97171, #E97171);
+  background-image: linear-gradient(to bottom, #E97171, #E97171);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  height: 23px;
+  line-height: 23px;
+  color: #FFFFFF;
+  font-family: sans-serif;
+  width: 133px;
+  font-size: 19px;
+  font-weight: 600;
+  padding: 16px;
+  box-shadow: 1px 1px 20px 0px #000000;
+  -webkit-box-shadow: 1px 1px 20px 0px #000000;
+  -moz-box-shadow: 1px 1px 20px 0px #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_MCN:hover {
+  border: solid #FABEA7 2px;
+  background: #FABEA7;
+  background-image: -webkit-linear-gradient(top, #FABEA7, #FABEA7);
+  background-image: -moz-linear-gradient(top, #FABEA7, #FABEA7);
+  background-image: -ms-linear-gradient(top, #FABEA7, #FABEA7);
+  background-image: -o-linear-gradient(top, #FABEA7, #FABEA7);
+  background-image: linear-gradient(to bottom, #FABEA7, #FABEA7);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+#para2 {
+  color: #eaf6f6;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 30px;
+  margin-bottom: 0;
+}
+
+.footer-link {
+  color: #000000;
+}
+
+hr {
+  margin-top: 90px;
+  margin-bottom: 90px;
+  border-style: dotted none none;
+  border-color: lightgray;
+  border-width: 6px;
+  width: 4%;
+}
